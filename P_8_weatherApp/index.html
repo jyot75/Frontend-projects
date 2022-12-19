@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet" />
+
+    <title>weatherApp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f0d49e5ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search for a place..." autocomplete="off">
+            
+            <button id="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather_loading">
+            <div class="temp_div"><h3 id="city"></h3></div>
+            <div class="temp_div"><h1 id="temp"></h1></div>
+            <div class="flex">
+                <img class="icon" src="">
+                <div><h3 id="description"></h3></div>
+            </div>
+            <div class="g_set">
+                <div class="temp_div" id="humidity"></div>
+                <div class="temp_div" id="vis"></div>
+                <div class="temp_div" id="clouds"></div>
+                <div class="temp_div" id="pressure"></div>
+                <div class="temp_div" id="wind"></div>
+                <div class="temp_div" id="feel"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

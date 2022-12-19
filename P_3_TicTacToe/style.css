@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+.outer{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center; 
+}
+
+.containe{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(3,auto);
+    width: 18rem;
+    height: 18rem;
+    position: relative;
+}
+
+.each{
+    background-color: white;
+    width: 6rem;
+    height: 6rem;
+    font-size: xx-large;
+}
+
+.each:hover{
+    background-color: rgb(176, 207, 238);
+}
+
+.zero{
+    color: rgb(53, 0, 227);
+}
+
+.cross{
+    color: red;
+}
+
+
+.bt{
+   border-top: 0; 
+}
+.bb{
+   border-bottom: 0; 
+}
+.bl{
+   border-left: 0; 
+}
+.br{
+   border-right: 0; 
+}
+
+
+.line{
+    background-color: rgb(3, 174, 3);
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    transition: width 0.5s ease-in-out;
+}

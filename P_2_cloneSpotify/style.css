@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+
+.song{
+    @apply w-96 h-10 ring-green-600
+}
+
+@tailwind utilities;
